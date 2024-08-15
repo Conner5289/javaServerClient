@@ -5,11 +5,11 @@ import java.io.InputStreamReader;
 import java.io.PrintWriter;
 import java.net.Socket;
 
-public class serverCode extends Thread {
+public class receiveCode extends Thread {
 
 	private Socket clientSocket;
 
-	public serverCode(Socket socket) {
+	public receiveCode(Socket socket) {
 		this.clientSocket = socket;
 	}
 
